@@ -10,34 +10,79 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5em;
-    margin-bottom: 2em;
+    height: 8rem;
 }
 
 .logo {
     font-size: 28px;
     width: 8em;
     text-align: center;
-    margin-left: 5px;
     color: white;
 }
 
 .menu {
-    margin-right: 12px;
+    margin-right: 2rem;
 }
 
-.titulo-secao {
-    background-color: #B0B0B0;
-    width: 245px;
-    height: 40px;
+.descricao-secao {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    background: linear-gradient(to bottom, #fff, #14263a33);
+    border: 1px solid black;
+    align-items: flex-end;
+}
+
+.descricao-secao h2 {
+    padding-top: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
+    width: 12rem;
+}
+
+.descricao-secao p {
+    width: 14.5rem;
+    padding-bottom: 1rem;
+}
+
+.descricao-secao img {
+    width: 9rem;
+    height: 16.8rem;
+}
+
+/*-----------------------------------------------------*/
+
+
+.areas-atuacao {
+    text-align: center;
+    padding-top: 3rem;
+    background-image: url(/Imagens/bg-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2rem;
+}
+
+.areas-atuacao h2 {
+    margin-bottom: 2rem;
+}
+
+.areas-atuacao p {
+    margin-top: 1rem;
+    display: grid;
+}
+
+
+.areas {
+    text-align: center;
+    width: 20rem;
     margin: auto;
-    position: relative;
-    z-index: 10;
-    margin-top: 30px;
 }
 
-.foto-marina img {
-    width: 100%;
-
+.direito {
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
 }
+
