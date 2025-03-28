@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #112D4E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+    margin-bottom: 2em;
+}
+
+.logo {
+    font-size: 28px;
+    width: 8em;
+    text-align: center;
+    margin-left: 5px;
+    color: white;
+}
+
+.menu {
+    margin-right: 12px;
+}
+
+.titulo-secao {
+    background-color: #B0B0B0;
+    width: 245px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    margin-top: 30px;
+}
+
+.foto-marina img {
+    width: 100%;
+
+}
