@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -13,11 +14,14 @@ header {
     height: 8rem;
 }
 
-.logo {
-    font-size: 28px;
-    width: 8em;
-    text-align: center;
-    color: white;
+main {
+    background-color: #14263a33;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+
 }
 
 .menu {
@@ -30,22 +34,22 @@ header {
 
 .descricao-secao {
     display: flex;
-    justify-content: space-between;
-    padding-left: 1rem;
-    background: linear-gradient(to bottom, #fff, #14263a33);
-    border: 1px solid black;
+    justify-content: space-evenly;
+    padding-left: 0.6rem;
+    background: linear-gradient(to bottom, #fff, #14263a33); 
+    clip-path: ellipse(82% 55% at center); 
     align-items: flex-end;
 }
 
 .descricao-secao h2 {
     padding-top: 1rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: auto;
     width: 12rem;
 }
 
 .descricao-secao p {
-    width: 14.5rem;
+    width: 14rem;
     padding-bottom: 1rem;
 }
 
@@ -56,20 +60,6 @@ header {
 
 /*-----------------------------------------------------*/
 
-/* .fade-in.direito {
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-} */
-
 
 .areas-atuacao {
     text-align: center;
@@ -79,6 +69,10 @@ header {
     background-size: cover;
     background-position: center;
     padding-bottom: 2rem;
+    background-image: url(/Imagens/justice-6778953_1280-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
 .areas-atuacao h2 {
