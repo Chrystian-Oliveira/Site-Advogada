@@ -37,7 +37,7 @@ main {
     justify-content: space-evenly;
     padding-left: 0.6rem;
     background: linear-gradient(to bottom, #fff, #14263a33); 
-    clip-path: ellipse(82% 55% at center); 
+
     align-items: flex-end;
 }
 
